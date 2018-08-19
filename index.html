@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src='responsive.js'></script>
+</head>
+<body>
+    <div class="box" style="cursor: pointer;">
+        <div class="circle"><span style="margin: 40px;">Enter</span></div>
+<!--        <div class="name" style="opacity: 0.2; visibility: visible;">
+        <span class="name--top">
+        <span style="transform: translate(0%, 1.07422e-06%) translate3d(0px, 0px, 0px) scale(1, 1);">N</span>
+        <span style="transform: translate(0%, 1.07422e-06%) translate3d(0px, 0px, 0px) scale(1, 1);">a</span>
+        <span style="transform: translate(0%, 1.07422e-06%) translate3d(0px, 0px, 0px) scale(1, 1);">t</span>
+        <span style="transform: translate(0%, 1.07422e-06%) translate3d(0px, 0px, 0px) scale(1, 1);">a</span>
+        <span style="transform: translate(0%, 1.07422e-06%) translate3d(0px, 0px, 0px) scale(1, 1);">l</span>
+        <span style="transform: translate(0%, 0.0005642%) matrix3d(1, 1.79039e-06, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">i</span>
+        <span style="transform: translate(0%, 0.00835312%) matrix3d(1, 2.65072e-05, 0, 0, 0, 1.00003, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">e</span>
+        </span>
+        <span class="name--bottom">
+        <span style="transform: translate(0%, 0.00835312%) matrix3d(1, 2.65072e-05, 0, 0, 0, 1.00003, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">P</span>
+        <span style="transform: translate(0%, 0.00835312%) matrix3d(1, 2.65072e-05, 0, 0, 0, 1.00003, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">o</span>
+        <span style="transform: translate(0%, 0.00835312%) matrix3d(1, 2.65072e-05, 0, 0, 0, 1.00003, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">r</span>
+        <span style="transform: translate(0%, 0.00835312%) matrix3d(1, 2.65072e-05, 0, 0, 0, 1.00003, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">t</span>
+        <span style="transform: translate(0%, 0.00835312%) matrix3d(1, 2.65072e-05, 0, 0, 0, 1.00003, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">m</span>
+        <span style="transform: translate(0%, 0.0476637%) matrix3d(1, 0.000151252, 0, 0, 0, 1.00017, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">a</span>
+        <span style="transform: translate(0%, 0.173004%) matrix3d(1, 0.000548998, 0, 0, 0, 1.00063, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">n</span>
+    </span>
+</div>
+<div class="name" style="opacity: 0.2; visibility: hidden;">
+<span class="name--top">
+<span style="transform: translate(0%, -120%) matrix3d(0.984808, -0.173648, 0, 0, 0, 1.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">E</span>
+<span style="transform: translate(0%, -120%) matrix3d(0.984808, -0.173648, 0, 0, 0, 1.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">m</span>
+<span style="transform: translate(0%, -120%) matrix3d(0.984808, -0.173648, 0, 0, 0, 1.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">m</span>
+<span style="transform: translate(0%, -120%) matrix3d(0.984808, -0.173648, 0, 0, 0, 1.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">a</span>
+</span>
+<span class="name--bottom">
+<span style="transform: translate(0%, -120%) matrix3d(0.984808, -0.173648, 0, 0, 0, 1.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">W</span>
+<span style="transform: translate(0%, -120%) matrix3d(0.984808, -0.173648, 0, 0, 0, 1.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">a</span>
+<span style="transform: translate(0%, -120%) matrix3d(0.984808, -0.173648, 0, 0, 0, 1.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">t</span>
+<span style="transform: translate(0%, -120%) matrix3d(0.984808, -0.173648, 0, 0, 0, 1.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">s</span>
+<span style="transform: translate(0%, -120%) matrix3d(0.984808, -0.173648, 0, 0, 0, 1.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">o</span>
+<span style="transform: translate(0%, -120%) matrix3d(0.984808, -0.173648, 0, 0, 0, 1.2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);">n</span></span></div>-->
+        <p style="display: none;">Four women primarily known for their appearance. Discover their inner beauty.</p>
+        <span ><p class="dhanno text hello" id="text" ></p></span>
+    </div>
+    <script>
+        $(document).on("click mousemove",".box",function(e){ 
+var x = e.clientX;
+var y = e.clientY;
+var newposX = x - 60;
+var newposY = y - 60; $(".circle").css("transform","translate3d("+newposX+"px,"+newposY+"px,0px)");
+});
+
+function doTimeout(text, time)
+{
+    setTimeout(function(){
+        console.log(text)
+        var ele = "<span style='color:white;' class='color'> " + text+"</span>";
+        $(".dhanno").append(ele);
+    }, time);
+}
+
+        var z = $('p').text();
+        responsiveVoice.speak(z);
+        var res = z.split(" ");
+        
+        for(var i =0;i< res.length;i++)
+        {
+            doTimeout(res[i], 1000*i);
+        }
+        
+    </script>
+    
+   </div> 
+</body>
+</html>
